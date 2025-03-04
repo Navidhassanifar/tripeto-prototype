@@ -1,0 +1,134 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #FFFFFF;
+    color: #666666;
+  }
+  
+  header {
+    background-color: #0055A4;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header img {
+    width: 150px;
+  }
+  
+  header p {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 5px 0 0;
+  }
+  
+  .form-container, .plan-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #0055A4;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0055A4;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0055A4;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .checkbox-group label {
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  button {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #E69500;
+  }
+  
+  .plan-section {
+    margin-bottom: 20px;
+  }
+  
+  .plan-section h3 {
+    color: #0055A4;
+    margin-bottom: 10px;
+  }
+  
+  .plan-item {
+    margin-bottom: 5px;
+  }
+  
+  .cost {
+    color: #FFA500;
+    font-weight: bold;
+  }
+  
+  .total {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .within-limit {
+    color: #28A745;
+  }
+  
+  .slight-over {
+    color: #FFA500;
+  }
+  
+  .over-limit {
+    color: #DC3545;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #F5F5F5;
+    color: #666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
